@@ -223,7 +223,7 @@ class ConfirmSeedActivity : AppCompatActivity(), View.OnTouchListener {
     }
 
     private val longHold = Runnable {
-        val enteredSeed = ""
+        val enteredSeed = "8d9abe8145ecad4635b2341c56873956c611566d45ea72f4393b44099bf18fc5"
         if (enteredSeed.isNotEmpty()) {
             val i = Intent(this@ConfirmSeedActivity, EncryptWallet::class.java)
                     .putExtra(Constants.SEED, enteredSeed)
